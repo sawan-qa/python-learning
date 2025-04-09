@@ -1,0 +1,19 @@
+Basic Git Command used. Happy Git Learning!!!
+******************************************************************
+1. git add:
+>> This command is used to add the changed or updated file to the staging area. Git add is a command that allows you to stage individual files, or all files in the project directory at once, preparing them to be staged. 
+1.1 | Add Git Index
+>> Inside every Git repository, there is a file called .git. This file is created when a project is created with Git init.  
+Git uses this file to keep track of all the changes and work done in a repository.  One of the files the .git folder contains is called “index.”
+1.2 | Add Git All
+>> For Staging all file in the repository, use command To commit all files, you can use option --all, or simply -A for short. The command would then be structured:
+   git add -all
+>> For Unstaging the added file use command 
+   To remove all the files staged in the index at the same time, use the command:
+   git reset
+   If you want to unstage specific files or directories, you can specify them like this:
+   git reset <file>
+>> For Adding a specific file in the staging area then, use command:
+   git add <file-path>
+
+
